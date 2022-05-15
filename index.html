@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Hamburguer</title>
+</head>
+
+<body>
+  <header class="header-bg">
+    <nav aria-label="primária" class="container navegacao">
+      <a href="/">
+        <h1>Hamburguer</h1>
+      </a>
+      <button class="menu_botao"></button>
+      <ul class="menu">
+        <li><a href="#cardapio" id="a-1">Cardápio</a></li>
+        <li><a href="#perguntas" id="a-2">Perguntas</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-bg">
+    <section class="container grid" aria-label="informações">
+      <div class="section-conteudo grid">
+        <h2 class="titulo-principal">Lanche delicioso para curtir com os amigos. <span>✌️</span></h2>
+        <p class="subtitulo-principal">Depois de um dia cansativo você merece um hamburguer de primeira qualidade. Para isso veja nosso cardápio com variedades de sabores.</p>
+      </div>
+      <div class="section-imagem">
+        <img src="./hamburger-svg-principal.svg" alt="Hamburguer delicioso">
+      </div>
+    </section>
+  </main>
+  <article class="container" id="cardapio">
+    <h2>Escolha seu Hamburguer</h2>
+    <div class="segura-conteudo">
+      <div class="article-conteudo">
+        <div class="article-item">
+          <img src="/hamburger-svg-principal.svg" alt="" width="200" height="200">
+          <h3>The Cheeseburger</h3>
+          <p class="descricao">Burger de 160g com blend de carne nobre Wagyu, cheddar inglês e molho Cabana servido no pão da casa</p>
+          <span class="preco">simples R$30,00 duplo R$40,00</span>
+        </div>
+        <div class="article-item">
+          <img src="/hamburger-svg-principal.svg" alt="" width="200" height="200">
+          <h3>Sunrise</h3>
+          <p class="descricao">Smash Burger com cheddar, cebola caramelizada e molho Cabana</p>
+          <span class="preco">simples R$30,00 duplo R$40,00</span>
+        </div>
+        <div class="article-item">
+          <img src="/hamburger-svg-principal.svg" alt="" width="200" height="200">
+          <h3>Oklahoma Crispy</h3>
+          <p class="descricao">Smash Burger com american cheese, onion rings e molho Cabana servido no pão da casa</p>
+          <span class="preco">simples R$30,00 duplo R$40,00</span>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article class="container" id="perguntas">
+    <dl class="tabela">
+      <dt class="dt">Formas de pagamento?</dt>
+      <dd class="dd">Em espécie direto no caixa.</dd>
+      <dt class="segundodt">Quais horários o estabelecimento estará aberto?</dt>
+      <dd class="segundodd">9h as 19h</dd>
+    </dl>
+  </article>
+  <footer>
+    <p>Desenvolvido pelo Gabriel em 2022.</p>
+  </footer>
+
+
+  <script src="./script/script.js"></script>
+</body>
+
+</html>

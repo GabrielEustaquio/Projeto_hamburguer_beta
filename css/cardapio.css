@@ -1,0 +1,48 @@
+article h2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 4rem;
+  background-color: var(--cor-2);
+  padding: 2rem;
+  color: var(--cor-1);
+}
+article h2::before {
+  content: "";
+  background-color: var(--cor-3);
+  width: 5px;
+  height: 1rem;
+  display: inline-block;
+}
+article .segura-conteudo {
+  overflow: auto;
+}
+.article-conteudo {
+  min-width: 600px;
+  display: flex;
+  gap: 20px;
+}
+.article-item {
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+}
+#cardapio {
+  position: relative;
+}
+.circulo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  display: block;
+  z-index: 1;
+}
+.preco {
+  color: var(--cor-4);
+}
+.descricao {
+  color: #b0b2b3;
+}

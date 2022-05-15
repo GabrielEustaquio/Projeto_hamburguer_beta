@@ -1,0 +1,10 @@
+footer {
+  background-color: var(--cor-2);
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+footer p {
+  color: var(--cor-1);
+}

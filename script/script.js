@@ -81,15 +81,19 @@ segundodt.addEventListener("click", adicionarTabelaDois);
 dt.addEventListener("click", adicionarTabela);
 
 /**Animacoes perguntas */
+const span = document.querySelector("#perguntas span");
 function scrollarBaixo() {
   dt.style.opacity = 0;
   segundodt.style.opacity = 0;
+  span.style.opacity = 0;
   dt.style.transition = "1s";
   segundodt.style.transition = "1s";
+  span.style.transition = "1s";
   const armazenaScrollBaixo = window.scrollY;
-  if (armazenaScrollBaixo > 400) {
+  if (armazenaScrollBaixo > 370) {
     dt.style.opacity = 1;
     segundodt.style.opacity = 1;
+    span.style.opacity = 1;
   }
 }
 

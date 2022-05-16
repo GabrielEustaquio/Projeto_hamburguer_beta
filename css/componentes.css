@@ -2,7 +2,7 @@
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  padding: 20px;
+  padding: 1.25rem;
 }
 .botao {
   background-color: var(--cor-2);
@@ -16,7 +16,7 @@
 }
 @media (max-width: 600px) {
   .container {
-    padding: 10px 0;
+    padding: 0.625rem 0;
   }
 }
 .grid {

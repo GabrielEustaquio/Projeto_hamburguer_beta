@@ -22,7 +22,7 @@
   gap: 1rem;
 }
 .menu li a {
-  padding: 10px;
+  padding: 0.625rem;
   display: block;
 }
 .menu li a::after {

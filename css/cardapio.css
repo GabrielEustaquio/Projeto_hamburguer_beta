@@ -1,6 +1,6 @@
 article h2 {
   display: flex;
-  gap: 10px;
+  gap: 0.625rem;
   align-items: center;
   margin-top: 4rem;
   background-color: var(--cor-2);
@@ -20,25 +20,16 @@ article .segura-conteudo {
 .article-conteudo {
   min-width: 600px;
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
 }
 .article-item {
   display: grid;
   justify-items: center;
   gap: 1rem;
+  padding: 0 1.25rem;
 }
 #cardapio {
   position: relative;
-}
-.circulo {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: blue;
-  width: 100px;
-  height: 100px;
-  display: block;
-  z-index: 1;
 }
 .preco {
   color: var(--cor-4);

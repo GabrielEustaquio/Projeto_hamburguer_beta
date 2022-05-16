@@ -37,8 +37,8 @@ dt:hover {
 .segundodt::after {
   content: "";
   display: inline-block;
-  width: 50px;
-  height: 15px;
+  width: 3.125rem;
+  height: 0.9375rem;
   background-image: url("./seta-abrir.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,4 +47,11 @@ dt:hover {
 .tabela.ativaTabela .dt::after,
 .tabela.ativaTabeladois .segundodt::after {
   transform: rotate(180deg);
+}
+#perguntas span {
+  padding: 0 1.25rem;
+  margin-bottom: 1rem;
+}
+.tabela {
+  margin-top: 1.25rem;
 }

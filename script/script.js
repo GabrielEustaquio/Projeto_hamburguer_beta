@@ -87,7 +87,7 @@ function scrollarBaixo() {
   dt.style.transition = "1s";
   segundodt.style.transition = "1s";
   const armazenaScrollBaixo = window.scrollY;
-  if (armazenaScrollBaixo > 500) {
+  if (armazenaScrollBaixo > 400) {
     dt.style.opacity = 1;
     segundodt.style.opacity = 1;
   }
